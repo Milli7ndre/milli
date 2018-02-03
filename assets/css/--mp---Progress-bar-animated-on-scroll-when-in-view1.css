@@ -1,0 +1,139 @@
+.progress {
+  border-radius:0;
+  overflow:visible;
+}
+
+.progress-bar {
+  background:#343434;
+  transition:width 3s ease-in-out;
+  -webkit-transition:width 3s ease-in-out;
+}
+
+#skills.container {
+  margin:40px auto;
+}
+
+#indesign {
+  background:#00a3dd;
+}
+
+#muse {
+  background:#51b5e0;
+}
+
+#dreamweaver {
+  background:#82c6e2;
+}
+
+.spacer {
+  padding-top:50px;
+}
+
+.spacer1 {
+  padding-top:20px;
+}
+
+.tooltip {
+  position:relative;
+  float:right;
+  z-index:3;
+}
+
+.tooltip > .tooltip-inner {
+  /*background-color:#eebf3f;*/
+  padding:5px 15px;
+  color:rgb(249,249,249);
+  font-weight:bold;
+  font-size:13px;
+}
+
+.popOver + .tooltip > .tooltip-arrow {
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+  /*border-top:5px solid #eebf3f;*/
+}
+
+.progress-bar {
+  background:rgb(23,44,60);
+  -webkit-transition:width 1.5s ease-in-out;
+  transition:width 1.5s ease-in-out;
+}
+
+.title {
+  font-family:'Roboto';
+  font-weight:500;
+  color:#000;
+  font-size:30px;
+  text-transform:uppercase;
+  margin:auto;
+  text-align:center;
+  padding:15px 0 25px 0;
+}
+
+.split-line {
+  color:black;
+  width:100px;
+  margin:auto;
+  border:2px solid;
+  margin-bottom:25px;
+}
+
+@media (max-width: 1199px) {
+  #welcome .jumbotron {
+    padding:20px;
+    margin-top:99px;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color:white;
+  background-color:#51b5e0;
+  border:none;
+}
+
+#about {
+  padding-top:80px;
+}
+
+.contactform {
+  margin:25%;
+}
+
+#contact {
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+#contact h1 {
+  font-weight:normal;
+  padding-bottom:60px;
+}
+
+.col-lg-4.col-md-4.col-sm-6 {
+  padding-bottom:40px;
+}
+
+@media (max-width: 1199px) {
+  .col-lg-4.col-md-4.col-sm-6 {
+    padding-bottom:40px;
+  }
+}
+
+.profile-card p, h1 {
+  color:rgb(255,255,255);
+}
+
+#contact h1 {
+  color:rgb(0,0,0);
+}
+
+#logo {
+  max-height:60px;
+  margin-right:0;
+  display:inline-block;
+}
+
+#button {
+  padding-top:30px;
+}
+
